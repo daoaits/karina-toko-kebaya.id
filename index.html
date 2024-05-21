@@ -1,0 +1,131 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Online Sederhana</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      header {
+        background-color: pink;
+        color: #fff;
+        padding: 15px 20px;
+        text-align: center;
+      }
+      
+      header h1 {
+        margin: 0;
+      }
+      
+      nav ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+      }
+      
+      nav ul li {
+        display: inline;
+        margin-right: 10px;
+      }
+      
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+      
+      section {
+        padding: 20px;
+      }
+      
+      #products {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+      
+      .product {
+        text-align: center;
+        margin: 20px;
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 5px;
+        width: 200px;
+      }
+      
+      .product img {
+        width: 150px;
+        height: 150px;
+      }
+      
+      footer {
+        background-color: skyblue;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Butik My Kebaya</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Butik My Kebaya</h2>
+        <p>Trusted!</p>
+        <p>Kebaya Modern : Wisuda / Kondangan / Pengantin</p>
+        <p>Pengiriman Only Rangkasbitung </p>
+    </section>
+
+    <section id="products">
+        <h2>Products</h2>
+        <div class="product">
+            <img src="2.jpeg" alt="Product 1">
+            <h3>Kebaya Dalgonna </h3>
+            <p>Rp. 1.000.000</p>
+        </div>
+        <div class="product">
+            <img src="3.jpeg" alt="Product 2">
+            <h3>Kebaya Yola</h3>
+            <p>Rp. 2.789.000</p>
+        </div>
+        <div class="product">
+            <img src="1.jpeg" alt="Product 3">
+            <h3>Kebaya Meshy</h3>
+            <p>Rp. 1.150.000</p>
+        </div>
+        <div class="product">
+            <img src="2.jpeg" alt="Product 3">
+            <h3>Kebaya Pernik</h3>
+            <p>Rp. 930.000</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: butikmykebaya@gmail.com</p>
+        <p>Alamat: Jl. Siliwangi Jaura Ona Rangkasbitung</p>
+        <p>Order: 0895411876476</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kebaya Store</p>
+    </footer>
+</body>
+</html>
